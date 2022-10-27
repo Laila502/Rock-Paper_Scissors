@@ -1,0 +1,154 @@
+
+body {
+    background-color: #6D6D64;
+  }
+
+h1, h3, .text, .result{
+    text-align: center;
+    color: #f3c12c;
+    text-shadow: 4px 2px 8px black;
+    
+}
+
+h1{
+    font-size: 55px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.winner{
+    color: white;
+    font-size: 65px;
+}
+
+.btnText{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.displayBar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.resultDisplay{
+    width: fit-content;
+    color: #f3c12c;
+}
+
+.score{
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.result{
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    background-color: #27364d;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    height: fit-content;
+    margin-bottom: 45px;
+}
+
+.rps{
+    width: 40px;
+}
+
+ button, .btn{
+    background-color: rgb(87, 83, 83);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content; 
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+
+
+
+button{
+    
+    width: 150px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.compButtons, .playerButtons{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+button:hover{
+    border-color:#f3c12c;
+    box-shadow: #f3c12c;
+    box-shadow: 0 0 0.5rem #ffc600;
+    cursor: pointer;
+}
+
+
+ .playerButtons .btn:hover{
+    border-color:#f3c12c;
+    box-shadow: #f3c12c;
+    box-shadow: 0 0 0.5rem #ffc600;
+    cursor: pointer;
+    
+} 
+
+  .compEffects{
+    border-color:#f3c12c;
+    box-shadow: #f3c12c;
+    box-shadow: 0 0 0.5rem #ffc600;
+    transition: all 2s ease;
+
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 15px;
+}
+

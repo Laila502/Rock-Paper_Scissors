@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="scripts.js"></script>
+    <title>Rock Paper Scissors</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <h1 class="text">Rock Paper Scissors</h1>
+    <p class="text">The winner is first to 5 points</p>
+
+    <div class="container">
+        <div class="cont">
+            <h3>Player</h3>
+            <div class="display">
+                <div class="displayBar">
+                    <img src="/img/player.png" alt="player icon">
+                    <div class="resultDisplay">
+                        <p class="score">Score</p>
+                        <div class="result" id="playerScore">0</div>
+                    </div>
+                </div>
+                <div class="playerButtons">
+                    <div class="btn" id="rock">
+                        <p class="btnText">Rock</p>
+                        <img class="rps" src="/img/rock.png" alt="rock icon">
+                    </div>
+                    <div class="btn" id="paper">
+                        <p class="btnText">Paper</p>
+                        <img class="rps" src="/img/paper.png" alt="paper icon">
+                    </div>
+                    <div class="btn" id="scissors">
+                        <p class="btnText">Scissors</p>
+                        <img class="rps" src="/img/scissors.png" alt="scissors icon">
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="cont">
+            <h3>Computer</h3>
+            <div class="display">
+                <div class="displayBar">
+                    <img src="/img/computer.png" alt="computer icon">
+                    <div class="resultDisplay">
+                        <p class="score">Score</p>
+                        <div class="result" id="computerScore">0</div>
+                </div>
+                </div>  
+                <div class="compButtons">
+                    <div class="btn" id="compRock">
+                        <p class="btnText">Rock</p> 
+                        <img class="rps" src="/img/rock.png" alt="rock icon">
+                    </div>
+                    <div class="btn" id="compPaper">
+                        <p class="btnText">Paper</p> 
+                        <img class="rps" src="/img/paper.png" alt="paper icon">
+                    </div>  
+                    <div class="btn" id="compScissors">
+                        <p class="btnText">Scissors</p>
+                        <img class="rps" src="/img/scissors.png" alt="scissors icon">
+                    </div>
+                </div>   
+            </div>   
+        </div>  
+    </div>
+
+    <div class="button" id="playAgain"></div>
+    <p class="text" id="announcement"></p>
+    <p class="text winner" id="winnerAnnounc"></p>
     
+
+
 </body>
 </html>
